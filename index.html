@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang=fr dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css" />
+    <title>testex7</title>
+  </head>
+  <body>
+    <form>
+      <fieldset id=bloc1>
+        <legend>Votre identité</legend>
+        <ol>
+          <li><label for="name">Nom :<input type="text" placeholder="Nom" name="name" id="name" /></li>
+          <li><label for="firstname">Prénom :<input type="text" placeholder="Prénom" name="firstname" id="firstname" /></li>
+          <li><label for="mail">Adresse mail :<input type="email" placeholder="Adresse mail" name="mail" id="mail" /></li>
+        </ol>
+      </fieldset>
+
+      <fieldset id=bloc2>
+        <legend>Adresse de livraison</legend>
+        <ol>
+          <li><label for="adress">Adresse :</label><textarea name="adress" id="adress"rows="5" cols="40"></textarea></li>
+          <li><label for="Zipcode">Code postal :<input type="text" placeholder="Code postal" name="Zipcode" id="Zipcode" /></li>
+          <li><label for="City">Ville :<input type="text" placeholder="Ville" name="City" id="City" /></li>
+        </ol>
+      </fieldset>
+      <fieldset id=bloc3>
+        <legend>Informations de réglement</legend>
+        <ol>
+          <li>Type de carte:</li>
+          <p><input type="radio" name="cardtype" id="visa" /> <label for="visa">visa</label /></p>
+          <p><input type="radio" name="cardtype" id="master" /> <label for="master">mastercard</label /></p>
+          <li><label for="cardNumber">Numéro de carte :<input type="text" placeholder="Numéro de carte" name="cardNumber" id="cardNumber" /></li>
+          <li><label for="password">Code de sécurité :<input type="password" placeholder="Code de sécurité" name="password" id="password" /></li>
+          <li><label for="accountName">Nom du titulaire :<input type="text" placeholder="Nom du titulaire" name="accountName" id="accountName" /></li>
+        </ol>
+      </fieldset>
+      <input type="submit" name="pay"value="J'achète" />
+    </form>
+  </body>
+</html>
